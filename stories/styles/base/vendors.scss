@@ -1,0 +1,19 @@
+// Fonts
+// @import url("'https://fonts.googleapis.com/css2?family=Public+Sans&display=swap'");
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("../../stories/assets/fonts/public_sans/PublicSans-VariableFont_wght.ttf");
+  format:"truetype";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("../../stories/assets/fonts/public_sans/PublicSans-Italic-VariableFont_wght.ttf");
+  format: "truetype";
+  font-weight: 400;
+  font-style: italic;
+}
+
+//   src: url("../../assets/fonts/public_sans/PublicSans-VariableFont_wght.ttf");

@@ -1,0 +1,118 @@
+
+// @import url("'https://fonts.googleapis.com/css2?family=Public+Sans&display=swap'");
+
+.ga-font{
+  font-family: "Public Sans";
+  &__italic{
+    font-style: italic;
+  }
+  &__logo-desktop{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  &__logo-mob{
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+  }
+}
+
+h1{
+  @media(min-width: $desktop){
+    font-family: "Public Sans";
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0px;
+  }
+  
+  @media(min-width: $tablet){
+    font-family: "Public Sans";
+    font-weight: bold;
+    size: 35px;
+    letter-spacing: 0px;
+  };
+  @media(min-width:$mobile){
+    font-family: "Public Sans";
+    font-weight: bold;
+    size: 28px;
+    letter-spacing: 1px;
+  }
+}
+
+h2{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 32px;
+  letter-spacing: 1px;
+}
+
+h2-tab{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 30px;
+  letter-spacing: 1px;
+}
+
+h2-mob{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 24px;
+  letter-spacing: 1px;
+}
+
+h3{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 27px;
+  letter-spacing: 1px;
+}
+
+h3-tab{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 24px;
+  letter-spacing: 1px;
+}
+
+h3-mob{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 20px;
+  letter-spacing: 1px;
+}
+
+h4{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 24px;
+  letter-spacing: 1px;
+}
+
+h4-tab{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 20px;
+  letter-spacing: 1px;
+}
+
+h4-mob{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 16px;
+  letter-spacing: 1px;
+}
+
+h5{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 16px;
+  letter-spacing: 1px;
+}
+
+h5-mob{
+  font-family: "Public Sans";
+  font-weight: bold;
+  size: 16px;
+  letter-spacing: 1px;
+}

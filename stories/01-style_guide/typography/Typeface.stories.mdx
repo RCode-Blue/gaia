@@ -1,0 +1,51 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+import { Typeface } from "./Typeface.tsx";
+
+<Meta title="Style Guide/Typography" component={Typeface} />
+
+export const Template = (args) => <Typeface {...args} />;
+
+# Typeface
+
+Typeface in typography refers to the name of the font we are using.
+Our font of choice is Public Sans.
+
+<Story
+  name="Typeface"
+  args={{
+    cssClass: `sbdemo-textcontainer ga-font `,
+  }}
+>
+  {Template.bind({})}
+</Story>
+
+---
+
+# Logo
+
+## Desktop Logo
+
+<Canvas>
+  <Story
+    name="Logo"
+    args={{
+      cssClass: "sbdemo-textcontainer ga-font ga-font__logo-desktop",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+## Mobile Logo Mobile
+
+<Canvas>
+  <Story
+    name="Logo Mobile"
+    args={{
+      cssClass: "sbdemo-textcontainer ga-font ga-font__logo-mob",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
