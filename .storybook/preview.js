@@ -1,5 +1,5 @@
-import "../stories/styles/styles.scss";
-import "../stories/styles/storybook-styles.scss";
+import "../src/styles/styles.scss";
+import "../src/styles/storybook-styles.scss";
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
 import chakraTheme from "./chakraTheme";
 
@@ -14,7 +14,7 @@ export const parameters = {
   viewport: {
     viewports: INITIAL_VIEWPORTS,
   },
-  // chakra: {
-  //   theme: chakraTheme,
-  // },
+  chakra: {
+    theme: chakraTheme,
+  },
 };
