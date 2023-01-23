@@ -1,4 +1,5 @@
 import React from "react";
+import { Heading } from "@chakra-ui/react";
 
 interface HeaderProps {
   primary?: boolean;
@@ -18,11 +19,26 @@ export const Header = ({
 }: HeaderProps) => {
   return (
     <div>
-      <h1 className={cssClass}> {content ? content : "Heading H1"}</h1>
-      <h2 className={cssClass}> {content ? content : "Heading H2"}</h2>
-      <h3 className={cssClass}> {content ? content : "Heading H3"}</h3>
-      <h4 className={cssClass}> {content ? content : "Heading H4"}</h4>
-      <h5 className={cssClass}> {content ? content : "Heading H5"}</h5>
+      <Heading as="h1" size="4xl" className={cssClass}>
+        {" "}
+        {content ? content : "Heading H1"}
+      </Heading>
+      <Heading as="h2" size="3xl" className={cssClass}>
+        {" "}
+        {content ? content : "Heading H2"}
+      </Heading>
+      <Heading as="h3" size="2xl" className={cssClass}>
+        {" "}
+        {content ? content : "Heading H3"}
+      </Heading>
+      <Heading as="h4" size="xl" className={cssClass}>
+        {" "}
+        {content ? content : "Heading H4"}
+      </Heading>
+      <Heading as="h5" size="lg" className={cssClass}>
+        {" "}
+        {content ? content : "Heading H5"}
+      </Heading>
     </div>
   );
 };
